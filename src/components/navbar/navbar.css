@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.30);
+}
+
+.navbar__logo {
+    min-width: 100px;
+    width: 150px;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #7e459a;
+}
+
+.navbar__list__item {
+    padding: 0 15px;
+}
